@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <a class="icon-link icon-link-hover" href="#">
+    Icon links und so...dsafsdfsafref
+    <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+  </a>
+<script>
+  const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+const appendAlert = (message, type) => {
+  const wrapper = document.createElement('div')
+  wrapper.innerHTML = [
+    `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+    `   <div>${message}</div>`,
+    '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+    '</div>'
+  ].join('')
+
+  alertPlaceholder.append(wrapper)
+}
+
+const alertTrigger = document.getElementById('liveAlertBtn')
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', () => {
+    appendAlert('Nice, you triggered this alert message!', 'success')
+  })
+}
+
+document.querySelector('a').addEventListener('mouseover', (event)=>{
+  event.target.innerHTML = "You hover me!";
+})
+</script>
+</body>
+</html>
