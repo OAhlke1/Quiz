@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    
+    <script src="./scripts.js"></script>
+</head>
+<body class="disFlexColumnCenter" onload="renderCard()">
+  <h1>Quiz über faszinierende Fakten</h1>
+  <div class="cardContainer disFlexColumnCenter">
+    <div class="questions">
+      <div class="card" style="width: 18rem;"></div>
+      <a class="btn btn-primary nextQuestion displayNone" onclick="nextCard()">Nächste Frage</a>
+    </div>
+    
+    <div class="perceBar">
+      <div class="inner disFlexColumnCenter"><p></p></div>
+    </div>
+  </div >
+
+  <div class="resultsScreen displayNone"></div>
+</body>
+</html>
