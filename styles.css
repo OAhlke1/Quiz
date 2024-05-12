@@ -65,6 +65,10 @@ p {
     margin-top: 30px;
 }
 
+.cardContainer .card .extraInfo span {
+    font-size: 14px;
+}
+
 .perceBar {
     position: fixed;
     bottom: 0;
@@ -72,6 +76,7 @@ p {
     width: 100vw;
     border-top: 1px solid rgba(0 0 0 / 0.7);
     border-bottom: 1px solid rgba(0 0 0 / 0.7);
+    background-color: white;
 }
 
 .perceBar .inner {
