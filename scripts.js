@@ -17,7 +17,7 @@ let cardContents = [
                   <br>wenn Spiderman Mary-Jane beim Sturz aus 
                   <br>100 Metern Höhe rettet?`,
         answers: {
-                    wrongAnswers: ['20 Zentimeter', '5 Meter', 'man weiß es bis heute nicht'],
+                    wrongAnswers: ['20 Zentimeter', '5 Meter', '0,5 Meter'],
                     correctAnswer: '2 Millimeter'
                 },
         infoText: `Spinnenseide ist das belastbarste Material, das man aus der Natur kennt.
