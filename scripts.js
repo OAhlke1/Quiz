@@ -13,15 +13,15 @@ let cardContents = [
     },
     {
         topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
+        question: `Wie dick müsste der Spinnenwebfaden sein,
+                  <br>wenn Spiderman Mary-Jane beim Sturz aus 
+                  <br>100 Metern Höhe rettet?`,
         answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
+                    wrongAnswers: ['20 Zentimeter', '5 Meter', 'man weiß es bis heute nicht'],
+                    correctAnswer: '2 Millimeter'
                 },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
+        infoText: `Spinnenseide ist das belastbarste Material, das man aus der Natur kennt.
+                  <br><a href="https://www.deutschlandfunknova.de/beitrag/das-netz-der-madagaskar-seidenspinne-reissfester-als-stahl-dehnbarer-als-nylon#:~:text=Der%20Faden%20der%20Madagaskar%2DSeidenspinne,gleichzeitig%20aber%20dehnbarer%20als%20Nylon." target="_blank">Hier weitere Infos zu dem Thema</a>`
     },
     {
         topImg: './images/mathe.jpg',
