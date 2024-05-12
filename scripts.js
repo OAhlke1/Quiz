@@ -12,7 +12,7 @@ let cardContents = [
                   <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
     },
     {
-        topImg: './images/mathe.jpg',
+        topImg: './images/spiderman.jpg',
         question: `Wie dick müsste der Spinnenwebfaden sein,
                   <br>wenn Spiderman Mary-Jane beim Sturz aus 
                   <br>100 Metern Höhe rettet?`,
@@ -245,27 +245,6 @@ let randomNumber = 0;
 let correctlyAnswered = 0;
 let widthPerceBar = 0;
 let questionsAmount = cardContents.length;
-let cardContentTemplate = /* HTML */ `
-    <div class="imageTop disFlexColumnCenter">
-        <img src="${cardContents[i].topImg}" class="card-img-top" alt="Mathe-Bild">
-    </div>
-    <div class="card-body disFlexColumnCenter">
-    <h5 class="card-title">
-        ${cardContents[i].question}
-    </h5>
-    <div class="answerBlock disFlexColumnCenter">
-        <a href="#" class="btn btn-primary"></a>
-        <a href="#" class="btn btn-primary"></a>
-        <a href="#" class="btn btn-primary"></a>
-        <a href="#" class="btn btn-primary"></a>
-    </div>
-        <div class="extraInfo displayNone disFlexColumnCenter">
-            <p>
-                ${cardContents[i].infoText}
-            </p>
-        </div>
-    </div>
-`;
 let clickAnsw = function clickAnswer(event) {
     event.preventDefault();
     if(document.querySelector('.card').classList.contains('answered')) {
@@ -290,7 +269,26 @@ let clickAnsw = function clickAnswer(event) {
 function renderCard() {
     document.querySelector('.nextQuestion').classList.add('displayNone');
     document.querySelector('.card').innerHTML = '';
-    document.querySelector('.card').innerHTML = cardContentTemplate;
+    document.querySelector('.card').innerHTML = /* HTML */ `
+    <div class="imageTop disFlexColumnCenter">
+        <img src="${cardContents[i].topImg}" class="card-img-top" alt="Mathe-Bild">
+    </div>
+    <div class="card-body disFlexColumnCenter">
+    <h5 class="card-title">
+        ${cardContents[i].question}
+    </h5>
+    <div class="answerBlock disFlexColumnCenter">
+        <a href="#" class="btn btn-primary"></a>
+        <a href="#" class="btn btn-primary"></a>
+        <a href="#" class="btn btn-primary"></a>
+        <a href="#" class="btn btn-primary"></a>
+    </div>
+        <div class="extraInfo displayNone disFlexColumnCenter">
+            <p>
+                ${cardContents[i].infoText}
+            </p>
+        </div>
+    </div>`;
     document.querySelector('.card').classList.remove('answered');
     setCorrectWrong();
     addAnswerClick();
@@ -333,6 +331,7 @@ function perceBarLength(perce = 0) {
 
 function nextCard() {
     i++;
+    console.log(cardContents[i]);
     if(i === questionsAmount) {
         document.querySelector('.card').classList.add("displayNone");
         document.querySelector('.resultsScreen').remove("displayNone");
@@ -345,4 +344,4 @@ function addAnswerClick() {
     for(let l=0; l<4; l++) {
         document.querySelectorAll('.answerBlock a')[l].addEventListener('click', clickAnsw);
     }
-}s
+}
