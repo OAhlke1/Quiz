@@ -342,8 +342,7 @@ function nextCard() {
 }
 
 function addAnswerClick() {
-    console.log('Hi');
     for(let l=0; l<4; l++) {
         document.querySelectorAll('.answerBlock a')[l].addEventListener('click', clickAnsw);
     }
-}
+}s
