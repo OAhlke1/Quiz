@@ -5,7 +5,7 @@ let cardContents = [
                   <br>1/1 + 1/2 + 1/3 + ...
                   <br>bis zur Unendlichkeit addiert?`,
         answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
+                    wrongAnswers: ['100π', '-1/12', 'man weiß es nicht'],
                     correctAnswer: 'Unendlich'
                 },
         infoText: `Tatsächlich ist es unendlich!
@@ -24,64 +24,72 @@ let cardContents = [
                   <br><a href="https://www.deutschlandfunknova.de/beitrag/das-netz-der-madagaskar-seidenspinne-reissfester-als-stahl-dehnbarer-als-nylon#:~:text=Der%20Faden%20der%20Madagaskar%2DSeidenspinne,gleichzeitig%20aber%20dehnbarer%20als%20Nylon." target="_blank">Hier weitere Infos zu dem Thema</a>`
     },
     {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
+        topImg: './images/bambus.jpg',
+        question: `Mit welcher Geschwindigkeit wächst
+                  <br>Bambus?`,
         answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
+                    wrongAnswers: ['3 Millimeter pro Tag', '2 Zentimeter pro Woche', '1 Zentimeter pro Stunde'],
+                    correctAnswer: '70 Zentimeter pro Tag'
                 },
-        infoText: `Tatsächlich ist es unendlich!
+        infoText: `Tatsächlich wächst Bambus mit einer Geschwindigkeit von bis zu 70 Zentimetern pro Tag!
+                  <br>Erfahre <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">hier</a> näheres!`
+    },
+    {
+        topImg: './images/blitz.jpg',
+        question: `Wie viele Blitze entstehen
+                  <br>welteit pro Sekunde?`,
+        answers: {
+                    wrongAnswers: ['100', '1', 'mehrere Tausend'],
+                    correctAnswer: '44'
+                },
+        infoText: `Tatsächlich sind es 44 Blitze mit jeder Sekunde!
+                  <br><a href="https://www.blick.ch/life/wissen/unnuetzes-wissen-zum-thema-natur-warum-ist-das-meer-blau-id16274697.html" target="_blank">Quelle</a>`
+    },
+    {
+        topImg: './images/neptun.png',
+        question: `Der Planet Neptun wurde 1846 entdeckt.
+                   <br>Wie viele Umläufe (Neptun-Jahre)
+                   <br>hat sind seit seiner Entdeckung vergangen?`,
+        answers: {
+                    wrongAnswers: ['2', '42', '5'],
+                    correctAnswer: '1'
+                },
+        infoText: `Der Neptun ist der äußerste Planet unseres Sonnensystems.
+                  <br>Ein Jahr dauert ca. 
                   <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
     },
     {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
+        topImg: './images/universum.jpg',
+        question: `Wie oft muss man ein Blatt Papier
+                  <br>mit 1mm Dicke in der Mitte
+                  <br>falten, damit dessen Höhe dem
+                  <br>Durchmesser des sichtbaren
+                  <br>Universums (~93 Mrd. Lichtjahre)
+                  <br>entspricht?`,
         answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
+                    wrongAnswers: ['1 Millon mal', '2000 mal', '700 mal'],
+                    correctAnswer: '100 mal'
                 },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
+        infoText: `Tatsächlich müsste man das Blatt nur 102 mal in der Mitte falten
+                  <br>damit seine Höhe 100 Mrd Lichtjahre beträgt!
+                  Sprich die Höhe wäre sogar noch weit größer als das sichtbare
+                  <br>Universum!
+                  <br>Exponentielles Wachsum (denn man verdoppelt die Blatthöhe mit jedem Falten)
+                  <br>ist einfach richtig mächtig!`
     },
     {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
+        topImg: './images/zauberwürfel.jpg',
+        question: `Wie viel Züge sind höchstens nötig,
+                  <br>um einen Zauberwürfel zu lösen?`,
         answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
+                    wrongAnswers: ['30', '14', 'kann man nicht wissen'],
+                    correctAnswer: '20'
                 },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
+        infoText: `Tatsächlich ist es nur 20 Züge!
+                  <br>Diese Zahl wird auch <i>Gotteszahl</i> genannt
+                  <br>und wurde mithilfe der Google-Server gefunden!
+                  <br>Näheres dazu <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">hier</a>
+                  <br><span>(auf Englisch)</span>`
     },
     {
         topImg: './images/mathe.jpg',
