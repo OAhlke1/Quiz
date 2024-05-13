@@ -2,251 +2,131 @@ let cardContents = [
     {
         topImg: './images/mathe.jpg',
         question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
+                  1/1 + 1/2 + 1/3 + ...
+                  bis zur Unendlichkeit addiert?`,
         answers: {
                     wrongAnswers: ['100π', '-1/12', 'man weiß es nicht'],
                     correctAnswer: 'Unendlich'
                 },
         infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
+                  <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
     },
     {
         topImg: './images/spiderman.jpg',
         question: `Wie dick müsste der Spinnenwebfaden sein,
-                  <br>wenn Spiderman Mary-Jane beim Sturz aus 
-                  <br>100 Metern Höhe rettet?`,
+                  wenn Spiderman Mary-Jane beim Sturz aus 
+                  100 Metern Höhe rettet?`,
         answers: {
                     wrongAnswers: ['20 Zentimeter', '5 Meter', '0,5 Meter'],
                     correctAnswer: '2 Millimeter'
                 },
         infoText: `Spinnenseide ist das belastbarste Material, das man aus der Natur kennt.
-                  <br><a href="https://www.deutschlandfunknova.de/beitrag/das-netz-der-madagaskar-seidenspinne-reissfester-als-stahl-dehnbarer-als-nylon#:~:text=Der%20Faden%20der%20Madagaskar%2DSeidenspinne,gleichzeitig%20aber%20dehnbarer%20als%20Nylon." target="_blank">Hier weitere Infos zu dem Thema</a>`
+                  <a href="https://www.deutschlandfunknova.de/beitrag/das-netz-der-madagaskar-seidenspinne-reissfester-als-stahl-dehnbarer-als-nylon#:~:text=Der%20Faden%20der%20Madagaskar%2DSeidenspinne,gleichzeitig%20aber%20dehnbarer%20als%20Nylon." target="_blank">Hier weitere Infos zu dem Thema</a>`
     },
     {
         topImg: './images/bambus.jpg',
         question: `Mit welcher Geschwindigkeit wächst
-                  <br>Bambus?`,
+                  Bambus?`,
         answers: {
                     wrongAnswers: ['3 Millimeter pro Tag', '2 Zentimeter pro Woche', '1 Zentimeter pro Stunde'],
                     correctAnswer: '70 Zentimeter pro Tag'
                 },
         infoText: `Tatsächlich wächst Bambus mit einer Geschwindigkeit von bis zu 70 Zentimetern pro Tag!
-                  <br>Erfahre <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">hier</a> näheres!`
+                  Erfahre <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">hier</a> näheres!`
     },
     {
         topImg: './images/blitz.jpg',
         question: `Wie viele Blitze entstehen
-                  <br>welteit pro Sekunde?`,
+                  welteit pro Sekunde?`,
         answers: {
                     wrongAnswers: ['100', '1', 'mehrere Tausend'],
                     correctAnswer: '44'
                 },
         infoText: `Tatsächlich sind es 44 Blitze mit jeder Sekunde!
-                  <br><a href="https://www.blick.ch/life/wissen/unnuetzes-wissen-zum-thema-natur-warum-ist-das-meer-blau-id16274697.html" target="_blank">Quelle</a>`
+                  <a href="https://www.blick.ch/life/wissen/unnuetzes-wissen-zum-thema-natur-warum-ist-das-meer-blau-id16274697.html" target="_blank">Quelle</a>`
     },
     {
         topImg: './images/neptun.png',
         question: `Der Planet Neptun wurde 1846 entdeckt.
-                   <br>Wie viele Umläufe (Neptun-Jahre)
-                   <br>hat sind seit seiner Entdeckung vergangen?`,
+                   Wie viele Umläufe (Neptun-Jahre)
+                   hat sind seit seiner Entdeckung vergangen?`,
         answers: {
                     wrongAnswers: ['2', '42', '5'],
                     correctAnswer: '1'
                 },
         infoText: `Der Neptun ist der äußerste Planet unseres Sonnensystems.
-                  <br>Ein Jahr dauert ca. 
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
+                  Ein Jahr dauert ca. 
+                  <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
     },
     {
         topImg: './images/universum.jpg',
         question: `Wie oft muss man ein Blatt Papier
-                  <br>mit 1mm Dicke in der Mitte
-                  <br>falten, damit dessen Höhe dem
-                  <br>Durchmesser des sichtbaren
-                  <br>Universums (~93 Mrd. Lichtjahre)
-                  <br>entspricht?`,
+                  mit 1mm Dicke in der Mitte
+                  falten, damit dessen Höhe dem
+                  Durchmesser des sichtbaren
+                  Universums (~93 Mrd. Lichtjahre)
+                  entspricht?`,
         answers: {
                     wrongAnswers: ['1 Millon mal', '2000 mal', '700 mal'],
                     correctAnswer: '100 mal'
                 },
         infoText: `Tatsächlich müsste man das Blatt nur 102 mal in der Mitte falten
-                  <br>damit seine Höhe 100 Mrd Lichtjahre beträgt!
+                  damit seine Höhe 100 Mrd Lichtjahre beträgt!
                   Sprich die Höhe wäre sogar noch weit größer als das sichtbare
-                  <br>Universum!
-                  <br>Exponentielles Wachsum (denn man verdoppelt die Blatthöhe mit jedem Falten)
-                  <br>ist einfach richtig mächtig!`
+                  Universum!
+                  Exponentielles Wachsum (denn man verdoppelt die Blatthöhe mit jedem Falten)
+                  ist einfach richtig mächtig!`
     },
     {
-        topImg: './images/zauberwürfel.jpg',
-        question: `Wie viel Züge sind höchstens nötig,
-                  <br>um einen Zauberwürfel zu lösen?`,
+        topImg: './images/rubikscube.png',
+        question: `Wie viele Züge sind höchstens
+                  nötig, um einen Zauberwürfel
+                  zu lösen?`,
         answers: {
                     wrongAnswers: ['30', '14', 'kann man nicht wissen'],
                     correctAnswer: '20'
                 },
         infoText: `Tatsächlich ist es nur 20 Züge!
-                  <br>Diese Zahl wird auch <i>Gotteszahl</i> genannt
-                  <br>und wurde mithilfe der Google-Server gefunden!
-                  <br>Näheres dazu <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">hier</a>
-                  <br><span>(auf Englisch)</span>`
+                  Diese Zahl wird auch <i>Gotteszahl</i> genannt
+                  und wurde mithilfe der Google-Server gefunden!
+                  Näheres dazu <a href="https://www.cubelelo.com/blogs/cubing/how-to-solve-rubiks-cube-in-20-moves#:~:text=Studies%20and%20research%20have%20proven%20that%20God's%20Number%20is%20number%2020." target="_blank">hier</a>
+                  <span>(auf Englisch)</span>`
+    },
+    {
+        topImg: './images/ameise.jpg',
+        question: `Wieviel Prozent der gesamten Biomasse der Erde
+                  machen Ameisen aus??`,
+        answers: {
+                    wrongAnswers: ['12', '0.01 ', '6'],
+                    correctAnswer: '20'
+                },
+        infoText: `Tatsächlich ist es unendlich!
+                  <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
     },
     {
         topImg: './images/mathe.jpg',
         question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
+                  1/1 + 1/2 + 1/3 + ...
+                  bis zur Unendlichkeit addiert?`,
         answers: {
                     wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
                     correctAnswer: 'Unendlich'
                 },
         infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
+                  <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
     },
     {
         topImg: './images/mathe.jpg',
         question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
+                  1/1 + 1/2 + 1/3 + ...
+                  bis zur Unendlichkeit addiert?`,
         answers: {
                     wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
                     correctAnswer: 'Unendlich'
                 },
         infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
-    {
-        topImg: './images/mathe.jpg',
-        question: `Was erhält man, wenn man
-                  <br>1/1 + 1/2 + 1/3 + ...
-                  <br>bis zur Unendlichkeit addiert?`,
-        answers: {
-                    wrongAnswers: ['100π', '-1/12', 'man weiß es bis heute nicht'],
-                    correctAnswer: 'Unendlich'
-                },
-        infoText: `Tatsächlich ist es unendlich!
-                  <br><a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
-    },
+                  <a href="https://de.wikibooks.org/wiki/Mathe_f%C3%BCr_Nicht-Freaks:_Harmonische_Reihe" target="_blank">Hier geht es zum Beweis</a>`
+    }
 ];
 let i = 0;
 let randomNumber = 0;
@@ -268,8 +148,8 @@ let clickAnsw = function clickAnswer(event) {
             event.target.style.color = 'white';
             document.querySelector('.answerBlock a.correct').style.backgroundColor = 'green';
             document.querySelector('.answerBlock a.correct').style.color = "white";
-            document.querySelector('.extraInfo').classList.remove('displayNone');
         }
+        showExtra();
     }
     perceBarLength();
 }
@@ -352,4 +232,8 @@ function addAnswerClick() {
     for(let l=0; l<4; l++) {
         document.querySelectorAll('.answerBlock a')[l].addEventListener('click', clickAnsw);
     }
+}
+
+function showExtra() {
+    document.querySelector('.extraInfo').classList.remove('displayNone');
 }
