@@ -1,0 +1,121 @@
+body {
+    height: 100vh;
+}
+
+h1, h2, h5, a, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: black;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+.disFlexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayNone {
+    display: none;
+}
+
+.cardContainer {
+    width: 100%;
+    min-height: fit-content;
+    height: 80vh;
+    max-height: 80vh;
+}
+
+.cardContainer .card {
+    width: 26rem !important;
+    height: fit-content;
+}
+
+.cardContainer .card .imageTop {
+    width: 100%;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.cardContainer .card .imageTop img {
+    width: 100%;
+    height: auto;
+}
+
+.cardContainer .card .answerBlock {
+    flex-direction: row;
+    width: 100%;
+    row-gap: 10px;
+    margin-top: 20px;
+}
+
+.leftAnswers, .rightAnswers {
+    row-gap: 20px;
+    width: 60%;
+}
+
+.cardContainer .card .answerBlock a {
+    width: 80%;
+    background-color: white;
+    color: #0d6efd;
+    border: 1px solid rgba(0 0 0 / 0.7);
+}
+
+.cardContainer .card .extraInfo {
+    margin-top: 30px;
+    height: fit-content;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.cardContainer .card .extraInfo::-webkit-scrollbar {
+    width: 5px;
+}
+
+.cardContainer .card .extraInfo::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cardContainer .card .extraInfo::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+.cardContainer .card .extraInfo span {
+    font-size: 14px;
+}
+
+.perceBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    border-top: 1px solid rgba(0 0 0 / 0.7);
+    border-bottom: 1px solid rgba(0 0 0 / 0.7);
+    background-color: white;
+}
+
+.perceBar .inner {
+    width: 0;
+    padding: 0px 5px;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.nextQuestion {
+    width: 100%;
+}

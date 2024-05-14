@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/icon" href="./images/brain-result.png">
+    <script src="./scripts.js"></script>
+</head>
+<body class="disFlexColumnCenter" onload="renderCard()">
+  <h1>Quiz über faszinierende Fakten</h1>
+  <div class="cardContainer disFlexColumnCenter">
+    <div class="questions">
+      <div class="card" style="width: 18rem;"></div>
+      <a class="btn btn-primary nextQuestion displayNone" onclick="nextCard()">Nächste Frage</a>
+    </div>
+    
+    <div class="perceBar">
+      <div class="inner disFlexColumnCenter"><p></p></div>
+    </div>
+  </div >
+
+  <div class="resultScreen displayNone">
+    <h2>
+      Du hast das Quiz beendet!
+      <br>Dein Ergebnis:
+    </h2>
+    <p></p>
+    <img src="./images/pokal.jpg" alt="" class="displayNone">
+  </div>
+
+  <audio id="soundCorrect" volume="0.5">
+    <source type="audio/mp3" src="./sounds/correct.mp3">
+  </audio>
+  <audio id="soundWrong" volume="0.5">
+    <source type="audio/mp3" src="./sounds/wrong.mp3">
+  </audio>
+  <audio id="soundHooray" volume="0.5">
+    <source type="audio/mp3" src="./sounds/hooray.mp3">
+  </audio>
+</body>
+</html>
