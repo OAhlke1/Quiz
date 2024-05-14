@@ -2,13 +2,21 @@ body {
     height: 100vh;
 }
 
-h5, a, p {
+h1, h2, h5, a, p {
     text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: black;
+}
+
+h2 {
+    font-size: 16px;
 }
 
 h5 {
     font-size: 16px;
-    color: black;
 }
 
 p {
@@ -34,6 +42,7 @@ p {
 }
 
 .cardContainer .card {
+    width: 26rem !important;
     height: fit-content;
 }
 
@@ -49,8 +58,15 @@ p {
 }
 
 .cardContainer .card .answerBlock {
+    flex-direction: row;
     width: 100%;
     row-gap: 10px;
+    margin-top: 20px;
+}
+
+.leftAnswers, .rightAnswers {
+    row-gap: 20px;
+    width: 60%;
 }
 
 .cardContainer .card .answerBlock a {
@@ -61,8 +77,22 @@ p {
 }
 
 .cardContainer .card .extraInfo {
-    display: none;
     margin-top: 30px;
+    height: fit-content;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.cardContainer .card .extraInfo::-webkit-scrollbar {
+    width: 5px;
+}
+
+.cardContainer .card .extraInfo::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.cardContainer .card .extraInfo::-webkit-scrollbar-thumb {
+    background: black;
 }
 
 .cardContainer .card .extraInfo span {
